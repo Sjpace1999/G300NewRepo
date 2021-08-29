@@ -2425,8 +2425,10 @@ MonoBehaviour:
   m_Mesh: {fileID: 605906122}
   m_IsSelectable: 1
   m_SelectedFaces: 
-  m_SelectedEdges: []
-  m_SelectedVertices: 
+  m_SelectedEdges:
+  - a: 42
+    b: 40
+  m_SelectedVertices: 2a00000028000000
 --- !u!4 &1765487666
 Transform:
   m_ObjectHideFlags: 0
@@ -3105,6 +3107,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 605906122}
+    - target: {fileID: 2794737488872733588, guid: e8ddad0c28b906742a2b1319d897792a, type: 3}
+      propertyPath: m_SelectedEdges.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794737488872733588, guid: e8ddad0c28b906742a2b1319d897792a, type: 3}
+      propertyPath: m_SelectedVertices.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2794737488872733591, guid: e8ddad0c28b906742a2b1319d897792a, type: 3}
       propertyPath: m_RootOrder
       value: 5
