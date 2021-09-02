@@ -176,3 +176,4 @@ Received Import Request.
 Start importing Assets/Scenes/Comet Observatory/ReflectionProbe-0.exr using Guid(092f8fa4cf1caf64f9117efc6cae5c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003ee4951a072d6a852085c4f1a124ed') in 0.086730 seconds 
   Import took 0.090249 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
